@@ -1,37 +1,45 @@
-# Assignments and Labs
+# AL03: Ticket Registry, Queue, and Undo
 
-## Week 1
+Name: [your name]
+Partners: [name(s)]
+Shared repository: [URL]
+My contribution: [brief note]
 
-[AL01: Ticket Rules and Follow-Up](AL01/AL01_Ticket_Rules_and_Regression.md)
+## Run
 
-One paired application developed across three days, with one individual
-submission after the final stage. The folder contains the task, fictional
-data, optional starter/walkthrough, and README template.
+Keep main.py, test_assignment.py, ticket_data.py, ticket_display.py,
+console_style.py, and any other imported modules together.
 
-## Week 2
+```powershell
+py -3.14 main.py
+py -3.14 test_assignment.py
+```
 
-[AL02: Library Catalog Lookup and Big-O Recognition](AL02/AL02_Lookup_Workload_Investigation.md)
+## Operation Comparison
 
-Start a fresh paired project with your new partner(s); neither partner's AL01
-code is needed. Build list-scan and dictionary lookups for the supplied library
-catalog, recognize common Big-O patterns, and explain qualitative workload
-choices. Follow the detailed Monday/Tuesday/Thursday stages in the assignment.
+One short reason per row is enough. Compare list and dictionary behavior;
+do not implement every operation twice or maintain two live stores.
 
-The folder contains book data, growth examples, an optional English-first
-starter and test scaffold, a support reference, and a README template.
-Actual timing and benchmarking are not required.
+| Operation | Representation fit / reason |
+| --- | --- |
+| Find one ticket by ID | [short comparison] |
+| Update one ticket's priority | [short comparison] |
+| Select tickets in a category | [short comparison] |
 
-## Working and Submitting
+## Work Notes and Reflections
 
-Copy the assignment's supplied data/support modules and any optional starter
-files into your working folder. Keep imported modules beside your application.
-Use the README template for brief personal notes, contribution, and assistance.
+Append brief observations, debugging challenges, changes, and learnings.
 
-For paired assignments, develop together and commit progress across the week.
-Each student then copies the complete solution into the assigned weekly folder
-in their own class repository, adds personal README notes, and runs the copied
-application and tests before committing and pushing.
+- Processing and undo: [one observation from two processed tickets and one undo]
+- Contract or snapshot learning: [one brief observation in your own words]
 
-Submit your own class repository URL and assignment folder path in Schoology,
-not the shared pair repository or this course-materials repository. Submit once
-after the final stage, following your instructor's posted deadline.
+These can be short bullets, not an essay or separate evidence document.
+
+## Assistance
+
+[Support used, or none. For AI, identify the tool/task and what you checked,
+changed, or rejected. Identify the supplied data and display modules as supplied.]
+
+## Instructor Comments
+
+[Reserved for instructor feedback.]
